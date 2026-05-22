@@ -8,7 +8,7 @@ interface GoogleMapsContextValue {
 
 const GoogleMapsCtx = createContext<GoogleMapsContextValue | null>(null);
 
-const LIBRARIES: ("places" | "drawing" | "geometry" | "localContext" | "visualization")[] = [];
+const LIBRARIES: ("places" | "drawing" | "geometry" | "visualization")[] = [];
 
 export function GoogleMapsProvider({ children }: { children: ReactNode }) {
   const { isLoaded, loadError } = useJsApiLoader({

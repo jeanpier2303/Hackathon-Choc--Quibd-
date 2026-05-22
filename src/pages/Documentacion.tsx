@@ -208,7 +208,7 @@ export default function Documentacion() {
                   <p className="text-[10px] text-gray-400 mt-1 uppercase tracking-wider">Predicción IA</p>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 p-4 text-center">
-                  <p className="text-3xl font-bold text-red-400"><Counter end={50} suffix="0" /></p>
+                  <p className="text-3xl font-bold text-red-400"><Counter end={50} suffix="" /></p>
                   <p className="text-[10px] text-gray-400 mt-1 uppercase tracking-wider">Alertas emitidas</p>
                 </div>
               </div>
